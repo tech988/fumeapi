@@ -1,0 +1,74 @@
+# ---- Environment / secrets ----
+.env
+.env.*
+!.env.example
+
+# ---- Python bytecode / cache ----
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pytype/
+.pyre/
+.cache/
+
+# ---- Virtual environments ----
+.venv/
+venv/
+ENV/
+env/
+.conda/
+pip-wheel-metadata/
+
+# ---- Build / packaging ----
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-log.txt
+
+# ---- Coverage / test reports ----
+.coverage
+coverage.xml
+htmlcov/
+nosetests.xml
+test-results/
+.junit.xml
+
+# ---- FastAPI / Uvicorn / app runtime ----
+*.log
+logs/
+*.pid
+*.sqlite3
+
+# If you store uploads locally
+uploads/
+media/
+staticfiles/
+
+# ---- OS files ----
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ---- IDE / Editor ----
+.vscode/
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+
+# ---- Local tooling ----
+.envrc
+*.swp
+*~
+.env.example
+
+
+seed_mongo.py
+seed.json

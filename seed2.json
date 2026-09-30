@@ -1,0 +1,1692 @@
+{
+  "doctors": [
+    {
+      "_id": "doc_001",
+      "slug": "dr-rajesh-kumar",
+      "name": "Dr. Rajesh Kumar",
+      "specialty": "Orthopedic Surgeon",
+      "subSpecialty": "Joint Replacement Specialist",
+      "qualification": "MS Orthopedics, Fellowship in Joint Replacement",
+      "degrees": ["MBBS", "MS Orthopedics", "Fellowship Joint Replacement"],
+      "experience": 15,
+      "rating": 4.8,
+      "reviewCount": 324,
+      "image": "/male-doctor-with-children.png",
+      "hospital": "Apollo Hospital",
+      "location": "Delhi",
+      "consultationFee": 1200,
+      "languages": ["English", "Hindi", "Punjabi"],
+      "about": "Dr. Rajesh Kumar is a renowned orthopedic surgeon specializing in joint replacement surgeries. With over 15 years of experience, he has successfully performed more than 2000 knee and hip replacement surgeries. He is known for his expertise in minimally invasive techniques and patient-centered care approach.",
+      "verified": true,
+      "specialization": "Orthopedic Surgery",
+      "education": [
+        { "degree": "MBBS", "institution": "AIIMS Delhi", "year": 2005 },
+        { "degree": "MS Orthopedics", "institution": "AIIMS Delhi", "year": 2009 },
+        { "degree": "Fellowship in Joint Replacement", "institution": "Johns Hopkins Hospital, USA", "year": 2011 }
+      ],
+      "certifications": [
+        "Board Certified Orthopedic Surgeon",
+        "Fellowship in Minimally Invasive Surgery",
+        "Advanced Arthroscopy Certification",
+        "Sports Medicine Certification"
+      ],
+      "awards": [
+        "Best Orthopedic Surgeon Award 2022",
+        "Excellence in Joint Replacement 2021",
+        "Patient Choice Award 2020",
+        "Medical Innovation Award 2019"
+      ],
+      "expertise": [
+        "Knee Replacement Surgery",
+        "Hip Replacement Surgery",
+        "Arthroscopic Surgery",
+        "Sports Medicine",
+        "Trauma Surgery",
+        "Minimally Invasive Surgery"
+      ],
+      "affiliatedHospitals": [
+        { "hospitalId": "hosp_001", "name": "Apollo Hospital", "location": "Delhi" },
+        { "hospitalId": "hosp_003", "name": "Max Healthcare", "location": "Delhi" },
+        { "hospitalId": "hosp_002", "name": "Fortis Hospital", "location": "Gurgaon" }
+      ],
+      "availability": [
+        { "day": "Monday", "slots": ["10:00 AM", "11:00 AM", "2:00 PM", "3:00 PM", "4:00 PM"] },
+        { "day": "Tuesday", "slots": ["10:00 AM", "11:00 AM", "2:00 PM", "3:00 PM"] },
+        { "day": "Wednesday", "slots": ["10:00 AM", "2:00 PM", "3:00 PM", "4:00 PM"] },
+        { "day": "Thursday", "slots": ["10:00 AM", "11:00 AM", "2:00 PM", "4:00 PM"] },
+        { "day": "Friday", "slots": ["10:00 AM", "11:00 AM", "2:00 PM", "3:00 PM", "4:00 PM"] },
+        { "day": "Saturday", "slots": ["10:00 AM", "11:00 AM", "12:00 PM"] }
+      ],
+      "consultationTypes": [
+        { "type": "in-person", "available": true, "fee": 1200 },
+        { "type": "video", "available": true, "fee": 800 },
+        { "type": "phone", "available": false, "fee": 0 }
+      ],
+      "reviews": [
+        {
+          "_id": "rev_001",
+          "patientName": "Ramesh Sharma",
+          "rating": 5,
+          "comment": "Excellent surgeon! My knee replacement was successful and recovery was smooth. Dr. Kumar explained everything clearly and was very supportive throughout the process.",
+          "date": "2024-01-15",
+          "verified": true,
+          "treatment": "Knee Replacement Surgery"
+        },
+        {
+          "_id": "rev_002",
+          "patientName": "Priya Gupta",
+          "rating": 5,
+          "comment": "Outstanding doctor with great expertise. The surgery went perfectly and I'm back to my normal activities. Highly recommend!",
+          "date": "2024-01-10",
+          "verified": true,
+          "treatment": "Hip Replacement Surgery"
+        },
+        {
+          "_id": "rev_003",
+          "patientName": "Amit Singh",
+          "rating": 4,
+          "comment": "Very professional and knowledgeable. The consultation was thorough and he answered all my questions patiently.",
+          "date": "2024-01-05",
+          "verified": true,
+          "treatment": "Consultation"
+        }
+      ],
+      "packages": ["knee-replacement-surgery"],
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "_id": "doc_002",
+      "slug": "dr-priya-sharma",
+      "name": "Dr. Priya Sharma",
+      "specialty": "Orthopedic Surgeon",
+      "subSpecialty": "Spine Surgery Specialist",
+      "qualification": "MS Orthopedics, DNB, Fellowship in Spine Surgery",
+      "degrees": ["MBBS", "MS Orthopedics", "DNB", "Fellowship Spine Surgery"],
+      "experience": 12,
+      "rating": 4.7,
+      "reviewCount": 256,
+      "image": "/smiling-female-doctor.png",
+      "hospital": "Fortis Hospital",
+      "location": "Mumbai",
+      "consultationFee": 1000,
+      "languages": ["English", "Hindi", "Marathi", "Gujarati"],
+      "about": "Dr. Priya Sharma is an experienced orthopedic surgeon with expertise in minimally invasive joint replacement procedures and spine surgery. She is known for her compassionate approach and excellent surgical outcomes.",
+      "verified": true,
+      "specialization": "Orthopedic Surgery",
+      "education": [
+        { "degree": "MBBS", "institution": "Grant Medical College, Mumbai", "year": 2008 },
+        { "degree": "MS Orthopedics", "institution": "KEM Hospital, Mumbai", "year": 2012 },
+        { "degree": "Fellowship in Spine Surgery", "institution": "Singapore General Hospital", "year": 2014 }
+      ],
+      "certifications": [
+        "Board Certified Orthopedic Surgeon",
+        "Spine Surgery Certification",
+        "Minimally Invasive Surgery Certification",
+        "Advanced Trauma Life Support (ATLS)"
+      ],
+      "awards": [
+        "Young Surgeon Award 2020",
+        "Excellence in Spine Surgery 2021",
+        "Women in Medicine Award 2022"
+      ],
+      "expertise": [
+        "Minimally Invasive Surgery",
+        "Joint Replacement",
+        "Spine Surgery",
+        "Trauma Surgery",
+        "Arthroscopic Surgery",
+        "Sports Injuries"
+      ],
+      "affiliatedHospitals": [
+        { "hospitalId": "hosp_002", "name": "Fortis Hospital", "location": "Mumbai" },
+        { "hospitalId": "hosp_ext_001", "name": "Lilavati Hospital", "location": "Mumbai" }
+      ],
+      "availability": [
+        { "day": "Monday", "slots": ["9:00 AM", "10:00 AM", "3:00 PM", "4:00 PM"] },
+        { "day": "Tuesday", "slots": ["11:00 AM", "3:00 PM", "4:00 PM"] },
+        { "day": "Wednesday", "slots": ["9:00 AM", "10:00 AM", "3:00 PM"] },
+        { "day": "Thursday", "slots": ["11:00 AM", "3:00 PM", "4:00 PM", "5:00 PM"] },
+        { "day": "Friday", "slots": ["9:00 AM", "10:00 AM", "3:00 PM"] },
+        { "day": "Saturday", "slots": ["10:00 AM", "11:00 AM", "2:00 PM"] }
+      ],
+      "consultationTypes": [
+        { "type": "in-person", "available": true, "fee": 1000 },
+        { "type": "video", "available": true, "fee": 700 },
+        { "type": "phone", "available": true, "fee": 500 }
+      ],
+      "reviews": [
+        {
+          "_id": "rev_004",
+          "patientName": "Sunita Patel",
+          "rating": 5,
+          "comment": "Very caring doctor. Explained everything clearly before my surgery. The recovery was faster than expected.",
+          "date": "2024-01-20",
+          "verified": true,
+          "treatment": "Spine Surgery"
+        },
+        {
+          "_id": "rev_005",
+          "patientName": "Ravi Kumar",
+          "rating": 4,
+          "comment": "Professional and skilled surgeon. Good bedside manner and thorough consultation.",
+          "date": "2024-01-12",
+          "verified": true,
+          "treatment": "Joint Replacement"
+        }
+      ],
+      "packages": ["knee-replacement-surgery"],
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "_id": "doc_003",
+      "slug": "dr-sunita-verma",
+      "name": "Dr. Sunita Verma",
+      "specialty": "Gynecologist & Obstetrician",
+      "subSpecialty": "High-Risk Pregnancy Specialist",
+      "qualification": "MD Obstetrics & Gynecology, Fellowship in Maternal-Fetal Medicine",
+      "degrees": ["MBBS", "MD OBG", "Fellowship Maternal-Fetal Medicine"],
+      "experience": 18,
+      "rating": 4.9,
+      "reviewCount": 450,
+      "image": "/female-cardiologist-smiling.png",
+      "hospital": "Cloudnine Hospital",
+      "location": "Bangalore",
+      "consultationFee": 800,
+      "languages": ["English", "Hindi", "Kannada", "Tamil"],
+      "about": "Dr. Sunita Verma is a leading gynecologist and obstetrician with extensive experience in high-risk pregnancies and minimally invasive gynecological surgeries. She is known for her compassionate care and excellent patient outcomes.",
+      "verified": true,
+      "specialization": "Obstetrics & Gynecology",
+      "education": [
+        { "degree": "MBBS", "institution": "Bangalore Medical College", "year": 2002 },
+        { "degree": "MD Obstetrics & Gynecology", "institution": "NIMHANS", "year": 2006 },
+        { "degree": "Fellowship in Maternal-Fetal Medicine", "institution": "Harvard Medical School", "year": 2008 }
+      ],
+      "certifications": [
+        "Board Certified Gynecologist",
+        "High-Risk Pregnancy Management",
+        "Laparoscopic Surgery Certification",
+        "Infertility Treatment Certification"
+      ],
+      "awards": [
+        "Excellence in Maternal Care 2023",
+        "Best Gynecologist Award 2021",
+        "Patient Safety Award 2020",
+        "Medical Excellence Award 2019"
+      ],
+      "expertise": [
+        "High-Risk Pregnancies",
+        "Laparoscopic Surgery",
+        "Infertility Treatment",
+        "Prenatal Care",
+        "Gynecological Oncology",
+        "Minimally Invasive Surgery"
+      ],
+      "affiliatedHospitals": [
+        { "hospitalId": "hosp_004", "name": "Cloudnine Hospital", "location": "Bangalore" },
+        { "hospitalId": "hosp_ext_002", "name": "Manipal Hospital", "location": "Bangalore" },
+        { "hospitalId": "hosp_ext_003", "name": "Apollo Hospital", "location": "Bangalore" }
+      ],
+      "availability": [
+        { "day": "Monday", "slots": ["9:00 AM", "10:00 AM", "1:00 PM", "2:00 PM", "4:00 PM"] },
+        { "day": "Tuesday", "slots": ["9:00 AM", "10:00 AM", "1:00 PM", "2:00 PM"] },
+        { "day": "Wednesday", "slots": ["9:00 AM", "1:00 PM", "2:00 PM", "4:00 PM"] },
+        { "day": "Thursday", "slots": ["9:00 AM", "10:00 AM", "1:00 PM", "4:00 PM"] },
+        { "day": "Friday", "slots": ["9:00 AM", "10:00 AM", "1:00 PM", "2:00 PM", "4:00 PM"] },
+        { "day": "Saturday", "slots": ["9:00 AM", "10:00 AM", "12:00 PM"] }
+      ],
+      "consultationTypes": [
+        { "type": "in-person", "available": true, "fee": 800 },
+        { "type": "video", "available": true, "fee": 600 },
+        { "type": "phone", "available": true, "fee": 400 }
+      ],
+      "reviews": [
+        {
+          "_id": "rev_006",
+          "patientName": "Meera Reddy",
+          "rating": 5,
+          "comment": "Dr. Verma handled my high-risk pregnancy with utmost care. She was always available for questions and provided excellent guidance throughout.",
+          "date": "2024-01-18",
+          "verified": true,
+          "treatment": "High-Risk Pregnancy Care"
+        },
+        {
+          "_id": "rev_007",
+          "patientName": "Kavitha Nair",
+          "rating": 5,
+          "comment": "Excellent doctor! Very knowledgeable and caring. Made me feel comfortable during the entire pregnancy journey.",
+          "date": "2024-01-14",
+          "verified": true,
+          "treatment": "Normal Delivery"
+        }
+      ],
+      "packages": ["normal-delivery-package", "c-section-delivery-package"],
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "_id": "doc_004",
+      "slug": "dr-kavita-singh",
+      "name": "Dr. Kavita Singh",
+      "specialty": "Gynecologist & Obstetrician",
+      "subSpecialty": "Fetal Medicine Specialist",
+      "qualification": "MS Obstetrics & Gynecology, Fellowship in Fetal Medicine",
+      "degrees": ["MBBS", "MS OBG", "Fellowship Fetal Medicine"],
+      "experience": 14,
+      "rating": 4.8,
+      "reviewCount": 380,
+      "image": "/professional-male-gynecologist.png",
+      "hospital": "Motherhood Hospital",
+      "location": "Delhi",
+      "consultationFee": 900,
+      "languages": ["English", "Hindi", "Punjabi"],
+      "about": "Dr. Kavita Singh specializes in fetal medicine and high-risk obstetrics with a focus on providing comprehensive maternity care. She is known for her expertise in prenatal diagnosis and management of complex pregnancies.",
+      "verified": true,
+      "specialization": "Obstetrics & Gynecology",
+      "education": [
+        { "degree": "MBBS", "institution": "Lady Hardinge Medical College", "year": 2006 },
+        { "degree": "MS Obstetrics & Gynecology", "institution": "AIIMS Delhi", "year": 2010 },
+        { "degree": "Fellowship in Fetal Medicine", "institution": "King's College London", "year": 2012 }
+      ],
+      "certifications": [
+        "Board Certified Gynecologist",
+        "Fetal Medicine Certification",
+        "Prenatal Diagnosis Certification",
+        "Reproductive Medicine Certification"
+      ],
+      "awards": [
+        "Fetal Medicine Excellence Award 2022",
+        "Best Doctor Award 2021",
+        "Research Excellence Award 2020"
+      ],
+      "expertise": [
+        "Fetal Medicine",
+        "High-Risk Obstetrics",
+        "Prenatal Diagnosis",
+        "Gynecological Oncology",
+        "Reproductive Medicine",
+        "Laparoscopic Surgery"
+      ],
+      "affiliatedHospitals": [
+        { "hospitalId": "hosp_005", "name": "Motherhood Hospital", "location": "Delhi" },
+        { "hospitalId": "hosp_ext_004", "name": "Max Healthcare", "location": "Delhi" }
+      ],
+      "availability": [
+        { "day": "Monday", "slots": ["10:00 AM", "11:00 AM", "2:00 PM", "3:00 PM"] },
+        { "day": "Tuesday", "slots": ["10:00 AM", "2:00 PM", "3:00 PM"] },
+        { "day": "Wednesday", "slots": ["10:00 AM", "11:00 AM", "2:00 PM"] },
+        { "day": "Thursday", "slots": ["10:00 AM", "2:00 PM", "3:00 PM", "5:00 PM"] },
+        { "day": "Friday", "slots": ["10:00 AM", "11:00 AM", "2:00 PM"] },
+        { "day": "Saturday", "slots": ["10:00 AM", "11:00 AM", "1:00 PM"] }
+      ],
+      "consultationTypes": [
+        { "type": "in-person", "available": true, "fee": 900 },
+        { "type": "video", "available": true, "fee": 650 },
+        { "type": "phone", "available": false, "fee": 0 }
+      ],
+      "reviews": [
+        {
+          "_id": "rev_008",
+          "patientName": "Anjali Sharma",
+          "rating": 5,
+          "comment": "Dr. Singh is an exceptional doctor. Her expertise in fetal medicine gave us confidence during a complicated pregnancy.",
+          "date": "2024-01-16",
+          "verified": true,
+          "treatment": "Fetal Medicine Consultation"
+        }
+      ],
+      "packages": ["normal-delivery-package", "c-section-delivery-package"],
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "_id": "doc_005",
+      "slug": "dr-amit-gupta",
+      "name": "Dr. Amit Gupta",
+      "specialty": "Cardiologist",
+      "subSpecialty": "Interventional Cardiology",
+      "qualification": "MD Internal Medicine, DM Cardiology, Fellowship in Interventional Cardiology",
+      "degrees": ["MBBS", "MD Internal Medicine", "DM Cardiology", "Fellowship Interventional Cardiology"],
+      "experience": 20,
+      "rating": 4.7,
+      "reviewCount": 520,
+      "image": "/male-neurologist.png",
+      "hospital": "Apollo Hospital",
+      "location": "Delhi",
+      "consultationFee": 1500,
+      "languages": ["English", "Hindi", "Urdu"],
+      "about": "Dr. Amit Gupta is a senior consultant in internal medicine and cardiology with expertise in preventive healthcare and cardiac interventions. He has performed over 5000 cardiac procedures and is known for his patient-centric approach.",
+      "verified": true,
+      "specialization": "Cardiology",
+      "education": [
+        { "degree": "MBBS", "institution": "AIIMS Delhi", "year": 2001 },
+        { "degree": "MD Internal Medicine", "institution": "AIIMS Delhi", "year": 2005 },
+        { "degree": "DM Cardiology", "institution": "AIIMS Delhi", "year": 2008 },
+        { "degree": "Fellowship in Interventional Cardiology", "institution": "Cleveland Clinic, USA", "year": 2010 }
+      ],
+      "certifications": [
+        "Board Certified Cardiologist",
+        "Interventional Cardiology Certification",
+        "Advanced Cardiac Life Support (ACLS)",
+        "Echocardiography Certification"
+      ],
+      "awards": [
+        "Cardiology Excellence Award 2023",
+        "Preventive Medicine Award 2021",
+        "Best Doctor Award 2020",
+        "Research Publication Award 2019"
+      ],
+      "expertise": [
+        "Preventive Cardiology",
+        "Interventional Cardiology",
+        "Heart Failure Management",
+        "Hypertension",
+        "Coronary Angioplasty",
+        "Cardiac Catheterization"
+      ],
+      "affiliatedHospitals": [
+        { "hospitalId": "hosp_001", "name": "Apollo Hospital", "location": "Delhi" },
+        { "hospitalId": "hosp_ext_005", "name": "Fortis Escorts Heart Institute", "location": "Delhi" },
+        { "hospitalId": "hosp_ext_004", "name": "Max Healthcare", "location": "Delhi" }
+      ],
+      "availability": [
+        { "day": "Monday", "slots": ["11:00 AM", "12:00 PM", "3:00 PM", "4:00 PM"] },
+        { "day": "Tuesday", "slots": ["11:00 AM", "3:00 PM", "4:00 PM"] },
+        { "day": "Wednesday", "slots": ["11:00 AM", "12:00 PM", "3:00 PM"] },
+        { "day": "Thursday", "slots": ["11:00 AM", "3:00 PM", "4:00 PM"] },
+        { "day": "Friday", "slots": ["11:00 AM", "12:00 PM", "3:00 PM"] },
+        { "day": "Saturday", "slots": ["11:00 AM", "12:00 PM"] }
+      ],
+      "consultationTypes": [
+        { "type": "in-person", "available": true, "fee": 1500 },
+        { "type": "video", "available": true, "fee": 1000 },
+        { "type": "phone", "available": true, "fee": 800 }
+      ],
+      "reviews": [
+        {
+          "_id": "rev_009",
+          "patientName": "Rajesh Agarwal",
+          "rating": 5,
+          "comment": "Dr. Gupta saved my life with his expertise in cardiac intervention. Excellent doctor with great bedside manner.",
+          "date": "2024-01-13",
+          "verified": true,
+          "treatment": "Angioplasty"
+        },
+        {
+          "_id": "rev_010",
+          "patientName": "Suman Devi",
+          "rating": 4,
+          "comment": "Very knowledgeable cardiologist. Explained my condition clearly and provided effective treatment.",
+          "date": "2024-01-08",
+          "verified": true,
+          "treatment": "Cardiac Consultation"
+        }
+      ],
+      "packages": ["full-body-health-checkup", "cardiac-health-package"],
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "_id": "doc_006",
+      "slug": "dr-neha-agarwal",
+      "name": "Dr. Neha Agarwal",
+      "specialty": "Internal Medicine",
+      "subSpecialty": "Diabetes & Endocrinology",
+      "qualification": "MD Internal Medicine, Fellowship in Diabetes & Endocrinology",
+      "degrees": ["MBBS", "MD Internal Medicine", "Fellowship Diabetes & Endocrinology"],
+      "experience": 11,
+      "rating": 4.6,
+      "reviewCount": 290,
+      "image": "/female-dermatologist.png",
+      "hospital": "Max Healthcare",
+      "location": "Bangalore",
+      "consultationFee": 1200,
+      "languages": ["English", "Hindi", "Kannada", "Bengali"],
+      "about": "Dr. Neha Agarwal specializes in internal medicine with a focus on diabetes management and preventive healthcare. She is known for her holistic approach to patient care and expertise in lifestyle medicine.",
+      "verified": true,
+      "specialization": "Internal Medicine",
+      "education": [
+        { "degree": "MBBS", "institution": "St. John's Medical College", "year": 2009 },
+        { "degree": "MD Internal Medicine", "institution": "NIMHANS", "year": 2013 },
+        { "degree": "Fellowship in Diabetes & Endocrinology", "institution": "Joslin Diabetes Center, USA", "year": 2015 }
+      ],
+      "certifications": [
+        "Board Certified Internal Medicine",
+        "Diabetes Management Certification",
+        "Endocrinology Certification",
+        "Lifestyle Medicine Certification"
+      ],
+      "awards": [
+        "Diabetes Care Excellence 2022",
+        "Young Physician Award 2021",
+        "Patient Care Award 2020"
+      ],
+      "expertise": [
+        "Diabetes Management",
+        "Preventive Medicine",
+        "Lifestyle Disorders",
+        "Geriatric Care",
+        "Thyroid Disorders",
+        "Metabolic Syndrome"
+      ],
+      "affiliatedHospitals": [
+        { "hospitalId": "hosp_003", "name": "Max Healthcare", "location": "Bangalore" },
+        { "hospitalId": "hosp_ext_002", "name": "Manipal Hospital", "location": "Bangalore" }
+      ],
+      "availability": [
+        { "day": "Monday", "slots": ["10:00 AM", "11:00 AM", "2:00 PM", "3:00 PM"] },
+        { "day": "Tuesday", "slots": ["10:00 AM", "2:00 PM", "3:00 PM"] },
+        { "day": "Wednesday", "slots": ["10:00 AM", "11:00 AM", "2:00 PM"] },
+        { "day": "Thursday", "slots": ["10:00 AM", "2:00 PM", "3:00 PM", "4:00 PM"] },
+        { "day": "Friday", "slots": ["10:00 AM", "11:00 AM", "2:00 PM"] },
+        { "day": "Saturday", "slots": ["10:00 AM", "11:00 AM", "1:00 PM"] }
+      ],
+      "consultationTypes": [
+        { "type": "in-person", "available": true, "fee": 1200 },
+        { "type": "video", "available": true, "fee": 800 },
+        { "type": "phone", "available": true, "fee": 600 }
+      ],
+      "reviews": [
+        {
+          "_id": "rev_011",
+          "patientName": "Prakash Kumar",
+          "rating": 5,
+          "comment": "Dr. Agarwal helped me manage my diabetes effectively. Her approach is very comprehensive and patient-friendly.",
+          "date": "2024-01-11",
+          "verified": true,
+          "treatment": "Diabetes Management"
+        }
+      ],
+      "packages": ["full-body-health-checkup"],
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "_id": "doc_007",
+      "slug": "dr-ravi-kumar",
+      "name": "Dr. Ravi Kumar",
+      "specialty": "Ophthalmologist",
+      "subSpecialty": "Retina Specialist",
+      "qualification": "MS Ophthalmology, Fellowship in Retina & Vitreous",
+      "degrees": ["MBBS", "MS Ophthalmology", "Fellowship Retina & Vitreous"],
+      "experience": 16,
+      "rating": 4.9,
+      "reviewCount": 410,
+      "image": "/male-doctor-with-children.png",
+      "hospital": "Aravind Eye Care",
+      "location": "Chennai",
+      "consultationFee": 700,
+      "languages": ["English", "Hindi", "Tamil", "Telugu"],
+      "about": "Dr. Ravi Kumar is a specialist in retinal diseases and cataract surgery with extensive experience in complex eye surgeries. He has performed over 10,000 eye surgeries and is known for his precision and patient care.",
+      "verified": true,
+      "specialization": "Ophthalmology",
+      "education": [
+        { "degree": "MBBS", "institution": "Stanley Medical College", "year": 2004 },
+        { "degree": "MS Ophthalmology", "institution": "Aravind Eye Care System", "year": 2008 },
+        { "degree": "Fellowship in Retina & Vitreous", "institution": "Moorfields Eye Hospital, UK", "year": 2010 }
+      ],
+      "certifications": [
+        "Board Certified Ophthalmologist",
+        "Retinal Surgery Certification",
+        "Cataract Surgery Certification",
+        "Laser Surgery Certification"
+      ],
+      "awards": [
+        "Excellence in Eye Care 2023",
+        "Best Ophthalmologist Award 2022",
+        "Surgical Excellence Award 2021"
+      ],
+      "expertise": [
+        "Cataract Surgery",
+        "Retinal Diseases",
+        "Diabetic Retinopathy",
+        "Macular Degeneration",
+        "Vitreoretinal Surgery",
+        "Laser Eye Surgery"
+      ],
+      "affiliatedHospitals": [
+        { "hospitalId": "hosp_ext_006", "name": "Aravind Eye Care", "location": "Chennai" },
+        { "hospitalId": "hosp_ext_007", "name": "Sankara Nethralaya", "location": "Chennai" }
+      ],
+      "availability": [
+        { "day": "Monday", "slots": ["9:00 AM", "10:00 AM", "2:00 PM", "3:00 PM"] },
+        { "day": "Tuesday", "slots": ["9:00 AM", "2:00 PM", "3:00 PM"] },
+        { "day": "Wednesday", "slots": ["9:00 AM", "10:00 AM", "2:00 PM"] },
+        { "day": "Thursday", "slots": ["9:00 AM", "2:00 PM", "3:00 PM"] },
+        { "day": "Friday", "slots": ["9:00 AM", "10:00 AM", "2:00 PM"] },
+        { "day": "Saturday", "slots": ["9:00 AM", "10:00 AM"] }
+      ],
+      "consultationTypes": [
+        { "type": "in-person", "available": true, "fee": 700 },
+        { "type": "video", "available": true, "fee": 500 },
+        { "type": "phone", "available": false, "fee": 0 }
+      ],
+      "reviews": [
+        {
+          "_id": "rev_012",
+          "patientName": "Lakshmi Iyer",
+          "rating": 5,
+          "comment": "Dr. Kumar performed my cataract surgery with excellent results. Very skilled and caring doctor.",
+          "date": "2024-01-09",
+          "verified": true,
+          "treatment": "Cataract Surgery"
+        }
+      ],
+      "packages": ["cataract-surgery-package"],
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "_id": "doc_008",
+      "slug": "dr-meera-shah",
+      "name": "Dr. Meera Shah",
+      "specialty": "Ophthalmologist",
+      "subSpecialty": "Cornea Specialist",
+      "qualification": "MS Ophthalmology, Fellowship in Cornea & External Eye Diseases",
+      "degrees": ["MBBS", "MS Ophthalmology", "Fellowship Cornea"],
+      "experience": 13,
+      "rating": 4.8,
+      "reviewCount": 320,
+      "image": "/smiling-female-doctor.png",
+      "hospital": "Sankara Nethralaya",
+      "location": "Chennai",
+      "consultationFee": 800,
+      "languages": ["English", "Hindi", "Tamil", "Gujarati"],
+      "about": "Dr. Meera Shah specializes in corneal diseases and anterior segment surgery with expertise in complex cataract cases. She is known for her meticulous surgical technique and compassionate patient care.",
+      "verified": true,
+      "specialization": "Ophthalmology",
+      "education": [
+        { "degree": "MBBS", "institution": "B.J. Medical College", "year": 2007 },
+        { "degree": "MS Ophthalmology", "institution": "Sankara Nethralaya", "year": 2011 },
+        { "degree": "Fellowship in Cornea", "institution": "Wills Eye Hospital, USA", "year": 2013 }
+      ],
+      "certifications": [
+        "Board Certified Ophthalmologist",
+        "Corneal Transplant Certification",
+        "Anterior Segment Surgery Certification",
+        "Refractive Surgery Certification"
+      ],
+      "awards": [
+        "Corneal Excellence Award 2022",
+        "Young Ophthalmologist Award 2021",
+        "Surgical Innovation Award 2020"
+      ],
+      "expertise": [
+        "Corneal Transplant",
+        "Anterior Segment Surgery",
+        "Cataract Surgery",
+        "Dry Eye Treatment",
+        "Refractive Surgery",
+        "Keratoconus Treatment"
+      ],
+      "affiliatedHospitals": [
+        { "hospitalId": "hosp_ext_007", "name": "Sankara Nethralaya", "location": "Chennai" },
+        { "hospitalId": "hosp_ext_008", "name": "Apollo Hospital", "location": "Chennai" }
+      ],
+      "availability": [
+        { "day": "Monday", "slots": ["10:00 AM", "11:00 AM", "3:00 PM", "4:00 PM"] },
+        { "day": "Tuesday", "slots": ["10:00 AM", "3:00 PM", "4:00 PM"] },
+        { "day": "Wednesday", "slots": ["10:00 AM", "11:00 AM", "3:00 PM"] },
+        { "day": "Thursday", "slots": ["10:00 AM", "3:00 PM", "4:00 PM"] },
+        { "day": "Friday", "slots": ["10:00 AM", "11:00 AM", "3:00 PM"] },
+        { "day": "Saturday", "slots": ["10:00 AM", "11:00 AM", "1:00 PM"] }
+      ],
+      "consultationTypes": [
+        { "type": "in-person", "available": true, "fee": 800 },
+        { "type": "video", "available": true, "fee": 600 },
+        { "type": "phone", "available": false, "fee": 0 }
+      ],
+      "reviews": [
+        {
+          "_id": "rev_013",
+          "patientName": "Arjun Patel",
+          "rating": 5,
+          "comment": "Dr. Shah is an excellent cornea specialist. Her expertise helped restore my vision completely.",
+          "date": "2024-01-07",
+          "verified": true,
+          "treatment": "Corneal Transplant"
+        }
+      ],
+      "packages": ["cataract-surgery-package"],
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    }
+  ],
+
+  "hospitals": [
+    {
+      "_id": "hosp_001",
+      "slug": "apollo-hospital-delhi",
+      "name": "Apollo Hospital",
+      "type": "Multi-specialty Hospital",
+      "location": "Delhi",
+      "address": "Sarita Vihar, Delhi - 110076",
+      "phone": "+91-11-2692-5858",
+      "email": "info@apollodelhi.com",
+      "website": "www.apollohospitals.com",
+      "image": "/modern-hospital-exterior.png",
+      "rating": 4.8,
+      "reviewCount": 1250,
+      "established": 1996,
+      "bedCount": 695,
+      "accreditation": ["NABH", "JCI", "ISO 9001:2015"],
+      "specialties": ["Cardiology", "Orthopedics", "Neurology", "Oncology", "Gastroenterology"],
+      "facilities": ["24/7 Emergency", "ICU & CCU", "Blood Bank", "Pharmacy", "Cafeteria", "Parking"],
+      "about": "Apollo Hospital Delhi is a leading healthcare institution providing world-class medical care with state-of-the-art technology and experienced medical professionals.",
+      "doctors": ["dr-rajesh-kumar"],
+      "packages": ["knee-replacement-surgery", "cataract-surgery-package"],
+      "insurancePartners": ["Star Health", "HDFC ERGO", "ICICI Lombard"],
+      "awards": ["Best Hospital Award 2023", "Excellence in Healthcare 2022"],
+      "gallery": ["/modern-hospital-exterior.png"],
+      "reviews": [
+        {
+          "_id": "hosp_rev_001",
+          "patientName": "Amit Singh",
+          "rating": 5,
+          "comment": "Excellent facilities and caring staff. My treatment was handled professionally.",
+          "date": "2024-01-10",
+          "verified": true
+        }
+      ],
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "_id": "hosp_002",
+      "slug": "fortis-hospital-mumbai",
+      "name": "Fortis Hospital",
+      "type": "Multi-specialty Hospital",
+      "location": "Mumbai",
+      "address": "Mulund Goregaon Link Road, Mumbai - 400078",
+      "phone": "+91-22-6754-0000",
+      "email": "info@fortismumbai.com",
+      "website": "www.fortishealthcare.com",
+      "image": "/large-community-hospital.png",
+      "rating": 4.6,
+      "reviewCount": 980,
+      "established": 2001,
+      "bedCount": 315,
+      "accreditation": ["NABH", "ISO 9001:2015"],
+      "specialties": ["Cardiology", "Orthopedics", "Neurosurgery", "Gastroenterology", "Emergency Medicine"],
+      "facilities": ["24/7 Emergency", "ICU", "Cath Lab", "Blood Bank", "Pharmacy"],
+      "about": "Fortis Hospital Mumbai is committed to providing quality healthcare with advanced medical technology and compassionate care.",
+      "doctors": ["dr-priya-sharma"],
+      "packages": ["knee-replacement-surgery"],
+      "insurancePartners": ["Star Health", "HDFC ERGO"],
+      "awards": ["Quality Excellence Award 2022"],
+      "gallery": ["/large-community-hospital.png"],
+      "reviews": [
+        {
+          "_id": "hosp_rev_002",
+          "patientName": "Priya Patel",
+          "rating": 4,
+          "comment": "Good facilities and professional staff. Treatment was successful.",
+          "date": "2024-01-15",
+          "verified": true
+        }
+      ],
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "_id": "hosp_003",
+      "slug": "max-healthcare-bangalore",
+      "name": "Max Healthcare",
+      "type": "Multi-specialty Hospital",
+      "location": "Bangalore",
+      "address": "Nagarbhavi, Bangalore - 560072",
+      "phone": "+91-80-6629-6629",
+      "email": "info@maxbangalore.com",
+      "website": "www.maxhealthcare.in",
+      "image": "/modern-orthopedic-hospital.png",
+      "rating": 4.7,
+      "reviewCount": 1120,
+      "established": 2005,
+      "bedCount": 500,
+      "accreditation": ["NABH", "ISO"],
+      "specialties": ["Orthopedics", "Cardiology", "Neurology", "Oncology", "Urology"],
+      "facilities": ["24/7 Emergency", "ICU & CCU", "Modular OT", "Blood Bank", "Pharmacy", "Ambulance"],
+      "about": "Max Healthcare Bangalore delivers comprehensive healthcare services with cutting-edge technology and patient-centric care.",
+      "doctors": [],
+      "packages": ["knee-replacement-surgery"],
+      "insurancePartners": ["Star Health", "ICICI Lombard"],
+      "awards": ["Best Hospital Infrastructure 2023"],
+      "gallery": ["/modern-orthopedic-hospital.png"],
+      "reviews": [],
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "_id": "hosp_004",
+      "slug": "cloudnine-hospital-bangalore",
+      "name": "Cloudnine Hospital",
+      "type": "Specialty Hospital",
+      "location": "Bangalore",
+      "address": "Jayanagar, Bangalore - 560041",
+      "phone": "+91-80-4550-9999",
+      "email": "info@cloudninecare.com",
+      "website": "www.cloudninecare.com",
+      "image": "/colorful-children-hospital.png",
+      "rating": 4.9,
+      "reviewCount": 850,
+      "established": 2007,
+      "bedCount": 200,
+      "accreditation": ["NABH"],
+      "specialties": ["Obstetrics & Gynecology", "Pediatrics", "Fertility", "Neonatology"],
+      "facilities": ["24/7 Emergency", "NICU", "Labor & Delivery", "Fertility Center", "Lactation Support"],
+      "about": "Cloudnine is India's leading chain of maternity and children's hospitals, providing world-class care for mothers and babies.",
+      "doctors": [],
+      "packages": ["normal-delivery-package", "c-section-delivery-package"],
+      "insurancePartners": ["Star Health", "HDFC ERGO", "Care Health"],
+      "awards": ["Best Maternity Hospital 2023", "Excellence in Newborn Care 2022"],
+      "gallery": ["/colorful-children-hospital.png"],
+      "reviews": [],
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "_id": "hosp_005",
+      "slug": "motherhood-hospital-delhi",
+      "name": "Motherhood Hospital",
+      "type": "Specialty Hospital",
+      "location": "Delhi",
+      "address": "Lajpat Nagar, Delhi - 110024",
+      "phone": "+91-11-4940-8888",
+      "email": "info@motherhooddelhi.com",
+      "website": "www.motherhoodhospitals.com",
+      "image": "/placeholder-pvmv0.png",
+      "rating": 4.7,
+      "reviewCount": 720,
+      "established": 2010,
+      "bedCount": 150,
+      "accreditation": ["NABH", "ISO"],
+      "specialties": ["Obstetrics & Gynecology", "Pediatrics", "IVF", "High-risk Pregnancy"],
+      "facilities": ["24/7 Emergency", "NICU", "IVF Lab", "Genetic Counseling", "Breastfeeding Support"],
+      "about": "Motherhood Hospitals is dedicated to providing comprehensive maternity and women's healthcare with personalized attention.",
+      "doctors": [],
+      "packages": ["normal-delivery-package", "c-section-delivery-package"],
+      "insurancePartners": ["Star Health", "HDFC ERGO", "Bajaj Allianz"],
+      "awards": ["Women's Healthcare Excellence 2022"],
+      "gallery": ["/placeholder-pvmv0.png"],
+      "reviews": [],
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "_id": "hosp_006",
+      "slug": "narayana-health-bangalore",
+      "name": "Narayana Health",
+      "type": "Multi-specialty Hospital",
+      "location": "Bangalore",
+      "address": "Bommasandra, Bangalore - 560099",
+      "phone": "+91-80-7122-7122",
+      "email": "info@narayanahealth.org",
+      "website": "www.narayanahealth.org",
+      "image": "/modern-cancer-center.png",
+      "rating": 4.7,
+      "reviewCount": 1400,
+      "established": 2000,
+      "bedCount": 1000,
+      "accreditation": ["NABH", "ISO"],
+      "specialties": ["Cardiac Sciences", "Neurosciences", "Oncology", "Orthopedics", "Gastroenterology"],
+      "facilities": ["24/7 Emergency", "Heart Command Center", "Cancer Center", "Stroke Unit", "Kidney Transplant"],
+      "about": "Narayana Health is committed to making quality healthcare accessible and affordable for everyone.",
+      "doctors": [],
+      "packages": ["cardiac-health-package"],
+      "insurancePartners": ["Star Health", "ICICI Lombard", "New India Assurance"],
+      "awards": ["Affordable Healthcare Excellence 2023", "Quality Care Award 2022"],
+      "gallery": ["/modern-cancer-center.png"],
+      "reviews": [],
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    }
+  ],
+
+  "packages": [
+    {
+      "_id": "pkg_001",
+      "slug": "knee-replacement-surgery",
+      "name": "Knee Replacement Surgery",
+      "category": "surgery",
+      "icon": "bone",
+      "description": "Complete knee replacement surgery with post-operative care and physiotherapy",
+      "priceRange": { "min": 180000, "max": 450000 },
+      "duration": "5-7 days hospital stay",
+      "popularity": 95,
+      "valueForMoney": 8.5,
+      "inclusions": [
+        "Pre-operative consultation and tests",
+        "Surgery and anesthesia",
+        "Implant cost (imported/domestic options)",
+        "5-7 days hospital stay",
+        "Post-operative care",
+        "Physiotherapy sessions (10 sessions)",
+        "Follow-up consultations (3 months)",
+        "Medications during hospital stay"
+      ],
+      "exclusions": [
+        "Pre-existing medical conditions treatment",
+        "Extended physiotherapy beyond 10 sessions",
+        "Complications requiring additional procedures",
+        "Personal attendant charges"
+      ],
+      "hospitals": [
+        { "hospitalId": "hosp_001", "name": "Apollo Hospital", "location": "Delhi", "price": 320000, "accreditation": ["NABH", "JCI"], "rating": 4.8 },
+        { "hospitalId": "hosp_002", "name": "Fortis Hospital", "location": "Mumbai", "price": 285000, "accreditation": ["NABH"], "rating": 4.6 },
+        { "hospitalId": "hosp_003", "name": "Max Healthcare", "location": "Bangalore", "price": 310000, "accreditation": ["NABH", "ISO"], "rating": 4.7 }
+      ],
+      "insurancePartners": [
+        { "name": "Star Health", "coverage": "80%" },
+        { "name": "HDFC ERGO", "coverage": "75%" },
+        { "name": "ICICI Lombard", "coverage": "70%" },
+        { "name": "New India Assurance", "coverage": "85%" }
+      ],
+      "doctors": ["dr-rajesh-kumar", "dr-priya-sharma"],
+      "faqs": [
+        { "question": "What is the recovery time for knee replacement?", "answer": "Most patients can return to normal activities within 6-8 weeks, with full recovery taking 3-6 months." },
+        { "question": "Are there different types of knee implants?", "answer": "Yes, we offer both imported and domestic implants with varying durability and cost options." }
+      ],
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "_id": "pkg_002",
+      "slug": "normal-delivery-package",
+      "name": "Normal Delivery Package",
+      "category": "delivery",
+      "icon": "baby",
+      "description": "Comprehensive normal delivery package with pre and post-natal care",
+      "priceRange": { "min": 25000, "max": 85000 },
+      "duration": "2-3 days hospital stay",
+      "popularity": 92,
+      "valueForMoney": 9.2,
+      "inclusions": [
+        "Pre-delivery consultation and monitoring",
+        "Normal delivery charges",
+        "2-3 days hospital stay",
+        "Newborn care for 48 hours",
+        "Basic newborn screening tests",
+        "Lactation counseling",
+        "Post-delivery consultation",
+        "Vaccination (BCG, Hepatitis B)",
+        "Discharge medicines"
+      ],
+      "exclusions": [
+        "Emergency C-section (if required)",
+        "NICU charges for baby",
+        "Extended hospital stay",
+        "Private room upgrade charges",
+        "Additional tests not included in package"
+      ],
+      "hospitals": [
+        { "hospitalId": "hosp_004", "name": "Cloudnine Hospital", "location": "Bangalore", "price": 45000, "accreditation": ["NABH"], "rating": 4.9 },
+        { "hospitalId": "hosp_005", "name": "Motherhood Hospital", "location": "Delhi", "price": 52000, "accreditation": ["NABH", "ISO"], "rating": 4.7 },
+        { "hospitalId": "hosp_ext_009", "name": "Rainbow Children's Hospital", "location": "Hyderabad", "price": 38000, "accreditation": ["NABH"], "rating": 4.8 }
+      ],
+      "insurancePartners": [
+        { "name": "Star Health", "coverage": "90%" },
+        { "name": "HDFC ERGO", "coverage": "85%" },
+        { "name": "Care Health", "coverage": "80%" },
+        { "name": "Bajaj Allianz", "coverage": "75%" }
+      ],
+      "doctors": ["dr-sunita-verma", "dr-kavita-singh"],
+      "faqs": [
+        { "question": "What if I need a C-section during delivery?", "answer": "Emergency C-section charges are separate and will be discussed with you beforehand." },
+        { "question": "Is newborn care included in the package?", "answer": "Yes, basic newborn care for 48 hours and essential screening tests are included." }
+      ],
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "_id": "pkg_003",
+      "slug": "full-body-health-checkup",
+      "name": "Full Body Health Checkup",
+      "category": "health-checkup",
+      "icon": "heart",
+      "description": "Comprehensive health screening with 50+ tests and specialist consultations",
+      "priceRange": { "min": 3500, "max": 15000 },
+      "duration": "4-6 hours",
+      "popularity": 88,
+      "valueForMoney": 9.5,
+      "inclusions": [
+        "Complete Blood Count (CBC)",
+        "Lipid Profile",
+        "Liver Function Tests",
+        "Kidney Function Tests",
+        "Thyroid Function Tests",
+        "Diabetes Screening (HbA1c, Fasting Glucose)",
+        "Chest X-Ray",
+        "ECG",
+        "Echocardiography",
+        "Ultrasound Abdomen",
+        "General Physician Consultation",
+        "Cardiologist Consultation",
+        "Detailed Health Report",
+        "Diet and Lifestyle Counseling"
+      ],
+      "exclusions": [
+        "Specialized tests (MRI, CT Scan)",
+        "Additional specialist consultations",
+        "Follow-up consultations",
+        "Medications"
+      ],
+      "hospitals": [
+        { "hospitalId": "hosp_ext_010", "name": "SRL Diagnostics", "location": "Multiple Cities", "price": 4500, "accreditation": ["NABL", "ISO"], "rating": 4.5 },
+        { "hospitalId": "hosp_ext_011", "name": "Dr. Lal PathLabs", "location": "Multiple Cities", "price": 5200, "accreditation": ["NABL", "CAP"], "rating": 4.6 },
+        { "hospitalId": "hosp_ext_012", "name": "Metropolis Healthcare", "location": "Multiple Cities", "price": 4800, "accreditation": ["NABL", "ISO"], "rating": 4.4 }
+      ],
+      "insurancePartners": [
+        { "name": "Star Health", "coverage": "60%" },
+        { "name": "HDFC ERGO", "coverage": "50%" },
+        { "name": "Care Health", "coverage": "55%" }
+      ],
+      "doctors": ["dr-amit-gupta", "dr-neha-agarwal"],
+      "faqs": [
+        { "question": "Do I need to fast before the checkup?", "answer": "Yes, 10-12 hours fasting is required for accurate blood sugar and lipid profile results." },
+        { "question": "How long does the complete checkup take?", "answer": "The entire process takes 4-6 hours including all tests and consultations." }
+      ],
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "_id": "pkg_004",
+      "slug": "cataract-surgery-package",
+      "name": "Cataract Surgery",
+      "category": "surgery",
+      "icon": "eye",
+      "description": "Advanced cataract surgery with premium IOL options and post-operative care",
+      "priceRange": { "min": 35000, "max": 120000 },
+      "duration": "Day care procedure",
+      "popularity": 85,
+      "valueForMoney": 8.8,
+      "inclusions": [
+        "Pre-operative eye examination",
+        "Cataract surgery (Phacoemulsification)",
+        "IOL implantation (Basic/Premium options)",
+        "Day care charges",
+        "Post-operative medications",
+        "Follow-up consultations (1 month)",
+        "Eye drops and protective gear"
+      ],
+      "exclusions": [
+        "Premium IOL upgrade charges",
+        "Complications requiring additional procedures",
+        "Extended follow-up beyond 1 month",
+        "Spectacles post-surgery"
+      ],
+      "hospitals": [
+        { "hospitalId": "hosp_ext_006", "name": "Aravind Eye Care", "location": "Chennai", "price": 45000, "accreditation": ["NABH", "ISO"], "rating": 4.9 },
+        { "hospitalId": "hosp_ext_007", "name": "Sankara Nethralaya", "location": "Chennai", "price": 52000, "accreditation": ["NABH", "JCI"], "rating": 4.8 },
+        { "hospitalId": "hosp_ext_013", "name": "Centre for Sight", "location": "Delhi", "price": 48000, "accreditation": ["NABH"], "rating": 4.7 }
+      ],
+      "insurancePartners": [
+        { "name": "Star Health", "coverage": "85%" },
+        { "name": "HDFC ERGO", "coverage": "80%" },
+        { "name": "Oriental Insurance", "coverage": "75%" }
+      ],
+      "doctors": ["dr-ravi-kumar", "dr-meera-shah"],
+      "faqs": [
+        { "question": "What are the different IOL options available?", "answer": "We offer basic monofocal, premium multifocal, and toric IOLs for astigmatism correction." },
+        { "question": "Is the surgery painful?", "answer": "No, the surgery is performed under local anesthesia and is virtually painless." }
+      ],
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "_id": "pkg_005",
+      "slug": "c-section-delivery-package",
+      "name": "C-Section Delivery Package",
+      "category": "delivery",
+      "icon": "hospital",
+      "description": "Planned or emergency cesarean delivery with comprehensive maternal and newborn care",
+      "priceRange": { "min": 45000, "max": 150000 },
+      "duration": "4-5 days hospital stay",
+      "popularity": 78,
+      "valueForMoney": 8.2,
+      "inclusions": [
+        "Pre-operative consultation and tests",
+        "Cesarean delivery procedure",
+        "Anesthesia charges",
+        "4-5 days hospital stay",
+        "Newborn care for 5 days",
+        "Basic newborn screening",
+        "Post-operative care",
+        "Lactation support",
+        "Discharge medications",
+        "Follow-up consultation"
+      ],
+      "exclusions": [
+        "NICU charges if required",
+        "Blood transfusion charges",
+        "Extended hospital stay",
+        "Private room charges",
+        "Additional complications treatment"
+      ],
+      "hospitals": [
+        { "hospitalId": "hosp_004", "name": "Cloudnine Hospital", "location": "Bangalore", "price": 75000, "accreditation": ["NABH"], "rating": 4.9 },
+        { "hospitalId": "hosp_005", "name": "Motherhood Hospital", "location": "Delhi", "price": 85000, "accreditation": ["NABH", "ISO"], "rating": 4.7 },
+        { "hospitalId": "hosp_ext_014", "name": "Fernandez Hospital", "location": "Hyderabad", "price": 68000, "accreditation": ["NABH", "JCI"], "rating": 4.8 }
+      ],
+      "insurancePartners": [
+        { "name": "Star Health", "coverage": "85%" },
+        { "name": "HDFC ERGO", "coverage": "80%" },
+        { "name": "Care Health", "coverage": "75%" },
+        { "name": "New India Assurance", "coverage": "90%" }
+      ],
+      "doctors": ["dr-sunita-verma", "dr-kavita-singh"],
+      "faqs": [
+        { "question": "What is the recovery time for C-section?", "answer": "Most mothers can resume normal activities in 6-8 weeks with proper rest and care." },
+        { "question": "Can I have a normal delivery after C-section?", "answer": "VBAC (Vaginal Birth After Cesarean) is possible in many cases, depending on individual factors." }
+      ],
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "_id": "pkg_006",
+      "slug": "cardiac-health-package",
+      "name": "Cardiac Health Package",
+      "category": "health-checkup",
+      "icon": "heart-pulse",
+      "description": "Comprehensive heart health screening with advanced cardiac tests and specialist consultation",
+      "priceRange": { "min": 8000, "max": 25000 },
+      "duration": "Half day",
+      "popularity": 82,
+      "valueForMoney": 9.0,
+      "inclusions": [
+        "ECG (Electrocardiogram)",
+        "Echocardiography (2D Echo)",
+        "Stress Test (TMT)",
+        "Chest X-Ray",
+        "Complete Blood Count",
+        "Lipid Profile",
+        "Blood Sugar Tests",
+        "Thyroid Function Tests",
+        "Cardiologist Consultation",
+        "Detailed Cardiac Risk Assessment",
+        "Diet and Lifestyle Counseling",
+        "Comprehensive Report"
+      ],
+      "exclusions": [
+        "Angiography or advanced imaging",
+        "Cardiac catheterization",
+        "Follow-up consultations",
+        "Medications",
+        "Additional specialist consultations"
+      ],
+      "hospitals": [
+        { "hospitalId": "hosp_ext_005", "name": "Fortis Escorts Heart Institute", "location": "Delhi", "price": 15000, "accreditation": ["NABH", "JCI"], "rating": 4.8 },
+        { "hospitalId": "hosp_ext_015", "name": "Asian Heart Institute", "location": "Mumbai", "price": 18000, "accreditation": ["NABH", "JCI"], "rating": 4.9 },
+        { "hospitalId": "hosp_006", "name": "Narayana Health", "location": "Bangalore", "price": 12000, "accreditation": ["NABH", "ISO"], "rating": 4.7 }
+      ],
+      "insurancePartners": [
+        { "name": "Star Health", "coverage": "70%" },
+        { "name": "HDFC ERGO", "coverage": "65%" },
+        { "name": "ICICI Lombard", "coverage": "60%" }
+      ],
+      "doctors": ["dr-ashok-seth", "dr-ramakanta-panda"],
+      "faqs": [
+        { "question": "Who should get a cardiac health checkup?", "answer": "Anyone above 35 years, or those with family history of heart disease, diabetes, or high blood pressure." },
+        { "question": "How often should I get a cardiac checkup?", "answer": "Annual checkups are recommended for high-risk individuals, every 2-3 years for others." }
+      ],
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    }
+  ],
+
+  "insurance_partners": [
+    {
+      "_id": "ins_001",
+      "slug": "healthguard-plus",
+      "name": "HealthGuard Plus",
+      "type": "Health Insurance",
+      "rating": 4.8,
+      "reviews": 15420,
+      "claimSettlement": "98.5%",
+      "networkHospitals": 10000,
+      "established": 2005,
+      "headquarters": "Mumbai",
+      "description": "India's leading health insurance provider with comprehensive coverage options for individuals and families.",
+      "planTypes": ["Individual", "Family", "Senior Citizen", "Critical Illness"],
+      "coverageRange": { "min": 300000, "max": 10000000 },
+      "premiumRange": { "min": 5000, "max": 50000 },
+      "features": [
+        "Cashless treatment at 10,000+ hospitals",
+        "No waiting period for accidents",
+        "Free annual health check-up",
+        "24/7 customer support",
+        "Mobile app for easy claims",
+        "Worldwide emergency coverage"
+      ],
+      "certifications": ["IRDAI Approved", "ISO Certified", "Great Place to Work"],
+      "contact": { "phone": "1800-123-4567", "email": "support@healthguardplus.com", "website": "www.healthguardplus.com" },
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "_id": "ins_002",
+      "slug": "securelife-insurance",
+      "name": "SecureLife Insurance",
+      "type": "Health Insurance",
+      "rating": 4.7,
+      "reviews": 12890,
+      "claimSettlement": "97.2%",
+      "networkHospitals": 8500,
+      "established": 2001,
+      "headquarters": "Delhi",
+      "description": "Trusted health insurance partner offering flexible plans with excellent claim settlement ratio.",
+      "planTypes": ["Individual", "Family", "Corporate", "Travel Health"],
+      "coverageRange": { "min": 200000, "max": 5000000 },
+      "premiumRange": { "min": 4000, "max": 35000 },
+      "features": [
+        "Quick claim processing within 24 hours",
+        "Direct billing with network hospitals",
+        "Health and wellness programs",
+        "Dedicated relationship manager",
+        "Pre and post hospitalization coverage",
+        "Alternative treatment coverage"
+      ],
+      "certifications": ["IRDAI Approved", "ISO Certified"],
+      "contact": { "phone": "1800-234-5678", "email": "info@securelife.com", "website": "www.securelifeinsurance.com" },
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "_id": "ins_003",
+      "slug": "familyfirst-health",
+      "name": "FamilyFirst Health",
+      "type": "Health Insurance",
+      "rating": 4.9,
+      "reviews": 8750,
+      "claimSettlement": "99.1%",
+      "networkHospitals": 12000,
+      "established": 2008,
+      "headquarters": "Bangalore",
+      "description": "Family-focused health insurance with the highest claim settlement ratio in the industry.",
+      "planTypes": ["Family Floater", "Maternity", "Child Health", "Family Plus"],
+      "coverageRange": { "min": 500000, "max": 15000000 },
+      "premiumRange": { "min": 8000, "max": 75000 },
+      "features": [
+        "Family-focused healthcare plans",
+        "Maternity and newborn care coverage",
+        "Pediatric specialists network",
+        "Child vaccination coverage",
+        "Family wellness programs",
+        "No sub-limits on room rent"
+      ],
+      "certifications": ["IRDAI Approved", "ISO Certified", "Customer Choice Award"],
+      "contact": { "phone": "1800-345-6789", "email": "care@familyfirsthealth.com", "website": "www.familyfirsthealth.com" },
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "_id": "ins_004",
+      "slug": "star-health",
+      "name": "Star Health Insurance",
+      "type": "Health Insurance",
+      "rating": 4.6,
+      "reviews": 25600,
+      "claimSettlement": "96.8%",
+      "networkHospitals": 14000,
+      "established": 2006,
+      "headquarters": "Chennai",
+      "description": "One of India's largest standalone health insurers with extensive network and diverse plans.",
+      "planTypes": ["Individual", "Family", "Senior Citizen", "Diabetes Care", "Cardiac Care"],
+      "coverageRange": { "min": 100000, "max": 20000000 },
+      "premiumRange": { "min": 3000, "max": 100000 },
+      "features": [
+        "Largest network of 14,000+ hospitals",
+        "Specialized plans for chronic conditions",
+        "Instant policy issuance",
+        "Day care procedures covered",
+        "Domiciliary hospitalization",
+        "Organ donor expenses covered"
+      ],
+      "certifications": ["IRDAI Approved", "ISO Certified", "Best Health Insurer Award"],
+      "contact": { "phone": "1800-425-2255", "email": "info@starhealth.in", "website": "www.starhealth.in" },
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "_id": "ins_005",
+      "slug": "care-health",
+      "name": "Care Health Insurance",
+      "type": "Health Insurance",
+      "rating": 4.5,
+      "reviews": 18900,
+      "claimSettlement": "95.5%",
+      "networkHospitals": 9500,
+      "established": 2012,
+      "headquarters": "Hyderabad",
+      "description": "Modern health insurance with innovative products and digital-first approach.",
+      "planTypes": ["Individual", "Family", "Super Top-up", "Personal Accident"],
+      "coverageRange": { "min": 300000, "max": 6000000 },
+      "premiumRange": { "min": 4500, "max": 45000 },
+      "features": [
+        "100% digital claim process",
+        "No medical check-up up to age 45",
+        "Unlimited restore benefit",
+        "Air ambulance coverage",
+        "Mental wellness coverage",
+        "Fitness rewards program"
+      ],
+      "certifications": ["IRDAI Approved", "Digital Innovation Award"],
+      "contact": { "phone": "1800-102-4488", "email": "care@careinsurance.com", "website": "www.careinsurance.com" },
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "_id": "ins_006",
+      "slug": "hdfc-ergo",
+      "name": "HDFC ERGO Health",
+      "type": "Health Insurance",
+      "rating": 4.4,
+      "reviews": 32100,
+      "claimSettlement": "94.8%",
+      "networkHospitals": 13000,
+      "established": 2002,
+      "headquarters": "Mumbai",
+      "description": "Backed by HDFC Bank, offering reliable health insurance with strong financial backing.",
+      "planTypes": ["Individual", "Family", "Corporate", "Group Health"],
+      "coverageRange": { "min": 300000, "max": 10000000 },
+      "premiumRange": { "min": 5500, "max": 60000 },
+      "features": [
+        "Strong financial backing",
+        "Wide network of hospitals",
+        "Ayush treatment coverage",
+        "Road ambulance coverage",
+        "Cumulative bonus up to 100%",
+        "E-consultation benefit"
+      ],
+      "certifications": ["IRDAI Approved", "ISO Certified", "Brand Trust Award"],
+      "contact": { "phone": "1800-266-0700", "email": "healthsupport@hdfcergo.com", "website": "www.hdfcergo.com" },
+      "verified": true,
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    }
+  ],
+
+  "insurance_plans": [
+    {
+      "_id": "plan_h_001",
+      "type": "health",
+      "name": "Essential Health",
+      "price": 89,
+      "originalPrice": 120,
+      "coverage": "5 Lakh",
+      "popular": false,
+      "features": [
+        "Emergency Care Coverage",
+        "Preventive Health Check-ups",
+        "Generic Medications",
+        "Telemedicine Consultations",
+        "24/7 Customer Support",
+        "Ambulance Services"
+      ],
+      "ideal": "Individual Coverage",
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "_id": "plan_h_002",
+      "type": "health",
+      "name": "Premium Health",
+      "price": 149,
+      "originalPrice": 199,
+      "coverage": "10 Lakh",
+      "popular": true,
+      "features": [
+        "All Essential Features",
+        "Specialist Consultations",
+        "Brand Medications",
+        "Mental Health Coverage",
+        "Dental & Vision Care",
+        "International Emergency",
+        "Pre & Post Hospitalization",
+        "Day Care Procedures"
+      ],
+      "ideal": "Individual + Spouse",
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "_id": "plan_h_003",
+      "type": "health",
+      "name": "Family Health Plus",
+      "price": 299,
+      "originalPrice": 399,
+      "coverage": "25 Lakh",
+      "popular": false,
+      "features": [
+        "All Premium Features",
+        "Family Coverage (4 members)",
+        "Maternity & Newborn Care",
+        "Critical Illness Coverage",
+        "Home Healthcare",
+        "Annual Health Camp",
+        "Wellness Programs",
+        "No Claim Bonus"
+      ],
+      "ideal": "Complete Family",
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "_id": "plan_l_001",
+      "type": "life",
+      "name": "Term Life Basic",
+      "price": 299,
+      "originalPrice": 399,
+      "coverage": "50 Lakh",
+      "popular": false,
+      "features": [
+        "Pure Term Life Coverage",
+        "Accidental Death Benefit",
+        "Waiver of Premium",
+        "Tax Benefits under 80C",
+        "Online Policy Management",
+        "24/7 Customer Support"
+      ],
+      "ideal": "Young Professionals",
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "_id": "plan_l_002",
+      "type": "life",
+      "name": "Family Protection Plus",
+      "price": 599,
+      "originalPrice": 799,
+      "coverage": "1 Crore",
+      "popular": true,
+      "features": [
+        "All Basic Features",
+        "Critical Illness Cover",
+        "Disability Income Benefit",
+        "Family Income Benefit",
+        "Education Fund Protection",
+        "Loan Protection Cover",
+        "Flexible Premium Payment",
+        "Return of Premium Option"
+      ],
+      "ideal": "Family with Children",
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "_id": "plan_l_003",
+      "type": "life",
+      "name": "Wealth Builder",
+      "price": 999,
+      "originalPrice": 1299,
+      "coverage": "2 Crore",
+      "popular": false,
+      "features": [
+        "All Family Protection Features",
+        "Investment Component",
+        "Maturity Benefits",
+        "Bonus Additions",
+        "Partial Withdrawal Option",
+        "Loan Against Policy",
+        "Guaranteed Returns",
+        "Estate Planning Benefits"
+      ],
+      "ideal": "High Net Worth Individuals",
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    }
+  ],
+
+  "medical_specialities": [
+    { "_id": "spec_001", "name": "Cardiology", "icon": "heart", "description": "Heart & cardiovascular care", "doctorCount": 45, "packageCount": 12 },
+    { "_id": "spec_002", "name": "Orthopedics", "icon": "bone", "description": "Bone & joint treatments", "doctorCount": 38, "packageCount": 15 },
+    { "_id": "spec_003", "name": "Oncology", "icon": "ribbon", "description": "Cancer care & treatment", "doctorCount": 32, "packageCount": 8 },
+    { "_id": "spec_004", "name": "Neurology", "icon": "brain", "description": "Brain & nervous system", "doctorCount": 28, "packageCount": 10 },
+    { "_id": "spec_005", "name": "Gastroenterology", "icon": "lungs", "description": "Digestive system care", "doctorCount": 25, "packageCount": 9 },
+    { "_id": "spec_006", "name": "Urology", "icon": "kidney", "description": "Kidney & urinary care", "doctorCount": 22, "packageCount": 7 },
+    { "_id": "spec_007", "name": "Gynecology", "icon": "baby", "description": "Women's health & maternity", "doctorCount": 35, "packageCount": 18 },
+    { "_id": "spec_008", "name": "Pediatrics", "icon": "teddy-bear", "description": "Children's healthcare", "doctorCount": 30, "packageCount": 11 },
+    { "_id": "spec_009", "name": "Pulmonology", "icon": "lungs", "description": "Lung & respiratory care", "doctorCount": 20, "packageCount": 6 },
+    { "_id": "spec_010", "name": "Nephrology", "icon": "kidney", "description": "Kidney care & dialysis", "doctorCount": 18, "packageCount": 5 },
+    { "_id": "spec_011", "name": "Dermatology", "icon": "sparkles", "description": "Skin & cosmetic care", "doctorCount": 24, "packageCount": 8 },
+    { "_id": "spec_012", "name": "General Medicine", "icon": "stethoscope", "description": "Primary healthcare", "doctorCount": 42, "packageCount": 14 }
+  ],
+
+  "testimonials": [
+    {
+      "_id": "test_001",
+      "name": "Rajesh Kumar",
+      "procedure": "Knee Replacement Surgery",
+      "hospital": "Apollo Hospital, Delhi",
+      "rating": 5,
+      "comment": "Excellent care and transparent pricing. The comparison tool helped me choose the best package for my needs.",
+      "savings": 45000,
+      "image": "/placeholder-pvmv0.png",
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "_id": "test_002",
+      "name": "Priya Sharma",
+      "procedure": "Normal Delivery Package",
+      "hospital": "Cloudnine Hospital, Bangalore",
+      "rating": 5,
+      "comment": "Amazing experience! The team guided me through every step and the package was very comprehensive.",
+      "savings": 25000,
+      "image": "/placeholder-pvmv0.png",
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "_id": "test_003",
+      "name": "Amit Patel",
+      "procedure": "Cardiac Health Checkup",
+      "hospital": "Fortis Hospital, Mumbai",
+      "rating": 5,
+      "comment": "Thorough checkup with detailed reports. Great value for money and professional service throughout.",
+      "savings": 8000,
+      "image": "/placeholder-pvmv0.png",
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    }
+  ],
+
+  "users": [
+    {
+      "_id": "user_001",
+      "name": "Rahul Sharma",
+      "email": "rahul.sharma@email.com",
+      "phone": "+91 98765 43210",
+      "avatar": null,
+      "role": "patient",
+      "memberSince": "2024-01-01T00:00:00.000Z",
+      "passwordHash": "$2b$10$placeholder_hash_for_seed_data",
+      "isActive": true,
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    }
+  ],
+
+  "bookings": [
+    {
+      "_id": "bk_001",
+      "bookingId": "HB-2026-001",
+      "patientId": "user_001",
+      "patient": { "name": "Rahul Sharma", "phone": "+91 98765 43210", "email": "rahul.sharma@email.com" },
+      "doctor": { "name": "Dr. Priya Patel", "specialty": "Cardiology", "avatar": null },
+      "hospital": { "name": "Apollo Hospital", "location": "Mumbai" },
+      "date": "2026-02-05",
+      "time": "10:00 AM",
+      "duration": "30 mins",
+      "type": "video",
+      "status": "confirmed",
+      "amount": 800,
+      "reason": "Heart checkup consultation",
+      "notes": "Follow-up for previous ECG results",
+      "createdAt": "2026-01-28T00:00:00.000Z"
+    },
+    {
+      "_id": "bk_002",
+      "bookingId": "HB-2026-002",
+      "patientId": "user_001",
+      "patient": { "name": "Rahul Sharma", "phone": "+91 98765 43210", "email": "rahul.sharma@email.com" },
+      "doctor": { "name": "Dr. Rajesh Kumar", "specialty": "Dermatology", "avatar": null },
+      "hospital": { "name": "Fortis Healthcare", "location": "Delhi" },
+      "date": "2026-02-08",
+      "time": "02:30 PM",
+      "duration": "45 mins",
+      "type": "in-person",
+      "status": "confirmed",
+      "amount": 1200,
+      "reason": "Skin allergy treatment",
+      "notes": "Bring previous prescription",
+      "createdAt": "2026-01-30T00:00:00.000Z"
+    },
+    {
+      "_id": "bk_003",
+      "bookingId": "HB-2026-003",
+      "patientId": "user_001",
+      "patient": { "name": "Rahul Sharma", "phone": "+91 98765 43210", "email": "rahul.sharma@email.com" },
+      "doctor": { "name": "Dr. Meera Reddy", "specialty": "Neurology", "avatar": null },
+      "hospital": { "name": "Max Hospital", "location": "Bangalore" },
+      "date": "2026-02-12",
+      "time": "11:00 AM",
+      "duration": "30 mins",
+      "type": "video",
+      "status": "pending",
+      "amount": 1500,
+      "reason": "Headache and migraine consultation",
+      "notes": "",
+      "createdAt": "2026-02-01T00:00:00.000Z"
+    },
+    {
+      "_id": "bk_004",
+      "bookingId": "HB-2026-004",
+      "patientId": "user_001",
+      "patient": { "name": "Rahul Sharma", "phone": "+91 98765 43210", "email": "rahul.sharma@email.com" },
+      "doctor": { "name": "Dr. Arun Nair", "specialty": "Pediatrics", "avatar": null },
+      "hospital": { "name": "Medanta", "location": "Gurugram" },
+      "date": "2026-01-20",
+      "time": "04:30 PM",
+      "duration": "20 mins",
+      "type": "phone",
+      "status": "completed",
+      "amount": 500,
+      "reason": "Child fever consultation",
+      "notes": "Recovery was good",
+      "createdAt": "2026-01-15T00:00:00.000Z"
+    },
+    {
+      "_id": "bk_005",
+      "bookingId": "HB-2026-005",
+      "patientId": "user_001",
+      "patient": { "name": "Rahul Sharma", "phone": "+91 98765 43210", "email": "rahul.sharma@email.com" },
+      "doctor": { "name": "Dr. Sunita Sharma", "specialty": "Gynecology", "avatar": null },
+      "hospital": { "name": "Apollo Hospital", "location": "Mumbai" },
+      "date": "2026-01-10",
+      "time": "09:00 AM",
+      "duration": "45 mins",
+      "type": "in-person",
+      "status": "cancelled",
+      "amount": 800,
+      "reason": "Routine checkup",
+      "notes": "Cancelled due to scheduling conflict",
+      "createdAt": "2026-01-05T00:00:00.000Z"
+    },
+    {
+      "_id": "bk_006",
+      "bookingId": "HB-2026-006",
+      "patientId": "user_001",
+      "patient": { "name": "Rahul Sharma", "phone": "+91 98765 43210", "email": "rahul.sharma@email.com" },
+      "doctor": { "name": "Dr. Vikram Singh", "specialty": "Orthopedics", "avatar": null },
+      "hospital": { "name": "Fortis Healthcare", "location": "Delhi" },
+      "date": "2026-01-15",
+      "time": "03:00 PM",
+      "duration": "30 mins",
+      "type": "video",
+      "status": "completed",
+      "amount": 1000,
+      "reason": "Knee pain evaluation",
+      "notes": "Recommended physiotherapy",
+      "createdAt": "2026-01-10T00:00:00.000Z"
+    }
+  ],
+
+  "team_members": [
+    {
+      "_id": "team_001",
+      "name": "Dr. Rajesh Kumar",
+      "role": "Chief Medical Officer",
+      "image": "/placeholder.svg?height=150&width=150",
+      "description": "20+ years in healthcare administration and patient care excellence.",
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "_id": "team_002",
+      "name": "Priya Sharma",
+      "role": "Head of Operations",
+      "image": "/placeholder.svg?height=150&width=150",
+      "description": "Expert in healthcare operations and patient experience optimization.",
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "_id": "team_003",
+      "name": "Amit Patel",
+      "role": "Technology Director",
+      "image": "/placeholder.svg?height=150&width=150",
+      "description": "Leading healthcare technology innovation and platform development.",
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "_id": "team_004",
+      "name": "Dr. Sunita Reddy",
+      "role": "Quality Assurance Head",
+      "image": "/placeholder.svg?height=150&width=150",
+      "description": "Ensuring highest standards in healthcare partnerships and services.",
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    }
+  ],
+
+  "company_timeline": [
+    {
+      "_id": "tl_001",
+      "year": "2020",
+      "title": "Foundation",
+      "description": "Health Bridge was founded with a vision to make healthcare transparent and accessible.",
+      "milestone": "Company Founded"
+    },
+    {
+      "_id": "tl_002",
+      "year": "2021",
+      "title": "First Partnerships",
+      "description": "Established partnerships with 50+ hospitals across major cities in India.",
+      "milestone": "50+ Hospital Partners"
+    },
+    {
+      "_id": "tl_003",
+      "year": "2022",
+      "title": "Transparency Revolution",
+      "description": "Launched India's first transparent healthcare pricing platform with detailed cost breakdowns.",
+      "milestone": "Transparency Platform Launch"
+    },
+    {
+      "_id": "tl_004",
+      "year": "2023",
+      "title": "Rapid Growth",
+      "description": "Served 25,000+ patients and expanded to 300+ hospital partners nationwide.",
+      "milestone": "25K+ Patients Served"
+    },
+    {
+      "_id": "tl_005",
+      "year": "2024",
+      "title": "Market Leadership",
+      "description": "Became India's leading transparent healthcare marketplace with 500+ partners.",
+      "milestone": "Market Leader"
+    }
+  ],
+
+  "homepage_insurance_providers": [
+    { "_id": "home_ins_001", "name": "Star Health Insurance", "logo": "star", "coverage": "Up to 85%", "usp": "Cashless Coverage", "networkHospitals": "12,000+" },
+    { "_id": "home_ins_002", "name": "HDFC ERGO", "logo": "bank", "coverage": "Up to 80%", "usp": "Quick Claims", "networkHospitals": "10,000+" },
+    { "_id": "home_ins_003", "name": "ICICI Lombard", "logo": "building", "coverage": "Up to 75%", "usp": "Digital First", "networkHospitals": "8,500+" },
+    { "_id": "home_ins_004", "name": "Care Health", "logo": "heart-green", "coverage": "Up to 90%", "usp": "Comprehensive Care", "networkHospitals": "9,200+" },
+    { "_id": "home_ins_005", "name": "Bajaj Allianz", "logo": "shield", "coverage": "Up to 78%", "usp": "Family Plans", "networkHospitals": "7,800+" },
+    { "_id": "home_ins_006", "name": "New India Assurance", "logo": "flag", "coverage": "Up to 85%", "usp": "Government Backed", "networkHospitals": "11,500+" }
+  ]
+}

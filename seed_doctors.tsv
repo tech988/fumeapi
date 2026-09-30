@@ -1,0 +1,51 @@
+name	specialty	experience_years	languages	fee_in_person	fee_video	fee_phone	hospitals
+Dr. A. Mehta	cardiology	12	English|Hindi	1500	1200	800	City Heart Hospital|Metro Care Gurugram
+Dr. Rohan Sharma	orthopedics	10	English|Hindi|Punjabi	1200	1000	800	Metro Care Gurugram|Sunrise Multi-Speciality Hospital
+Dr. Ananya Verma	general_medicine	8	English|Hindi	900	800	600	Lotus Care Clinic
+Dr. Vihaan Kapoor	pulmonology	11	English|Hindi	1300	1100	900	Sunrise Multi-Speciality Hospital|Green Valley Hospital
+Dr. Ishaan Khanna	neurology	15	English|Hindi|Punjabi	1800	1500	1200	City Heart Hospital
+Dr. Kabir Iyer	gastroenterology	9	English|Hindi|Tamil	1400	1200	900	Prime Health Institute
+Dr. Myra Reddy	dermatology	7	English|Hindi|Telugu	1000	900	700	Lotus Care Clinic|Harmony Medical Centre
+Dr. Aadya Menon	gynecology	13	English|Hindi|Malayalam	1300	1100	900	Sunrise Multi-Speciality Hospital|Silverline Hospital
+Dr. Aarav Patel	pediatrics	6	English|Hindi|Gujarati	900	800	600	Green Valley Hospital
+Dr. Vivaan Joshi	cardiology	18	English|Hindi	1700	1500	1200	City Heart Hospital|Prime Health Institute
+Dr. Nisha Malhotra	endocrinology	12	English|Hindi	1300	1100	900	Silverline Hospital
+Dr. Ria Bhatia	diabetology	9	English|Hindi	1100	950	750	Harmony Medical Centre
+Dr. Sanjay Singh	orthopedics	16	English|Hindi|Punjabi	1600	1400	1100	Metro Care Gurugram|Green Valley Hospital
+Dr. Naveen Chopra	nephrology	14	English|Hindi	1500	1300	1000	City Heart Hospital
+Dr. Pranav Nair	gastroenterology	10	English|Hindi|Malayalam	1200	1000	800	Sunrise Multi-Speciality Hospital
+Dr. Harsh Ganguly	neurology	9	English|Hindi|Bengali	1400	1200	900	Prime Health Institute|Silverline Hospital
+Dr. Varun Das	pulmonology	7	English|Hindi|Bengali	1000	900	700	Green Valley Hospital
+Dr. Raghav Kulkarni	general_medicine	11	English|Hindi|Marathi	1100	950	750	Lotus Care Clinic
+Dr. Siddharth Banerjee	oncology	15	English|Hindi|Bengali	1700	1500	1200	Sunrise Multi-Speciality Hospital|City Heart Hospital
+Dr. Neha Agarwal	dermatology	6	English|Hindi	900	800	600	Harmony Medical Centre
+Dr. Pooja Sharma	gynecology	12	English|Hindi	1300	1100	900	Green Valley Hospital|Silverline Hospital
+Dr. Karishma Mehta	pediatrics	8	English|Hindi|Gujarati	1000	900	700	Lotus Care Clinic
+Dr. Kunal Verma	cardiology	20	English|Hindi	1800	1600	1300	City Heart Hospital|Metro Care Gurugram
+Dr. Tara Kapoor	psychiatry	9	English|Hindi	1100	950	750	Prime Health Institute
+Dr. Meera Khanna	ophthalmology	13	English|Hindi	1200	1000	800	Silverline Hospital|Harmony Medical Centre
+Dr. Reyansh Iyer	ent	7	English|Hindi|Tamil	900	800	600	Metro Care Gurugram
+Dr. Aarav Reddy	orthopedics	10	English|Hindi|Telugu	1300	1100	900	Sunrise Multi-Speciality Hospital|Green Valley Hospital
+Dr. Ira Menon	neurology	8	English|Hindi|Malayalam	1200	1000	800	Prime Health Institute
+Dr. Siya Patel	endocrinology	11	English|Hindi|Gujarati	1300	1100	900	Silverline Hospital
+Dr. Advait Joshi	gastroenterology	9	English|Hindi	1200	1000	800	City Heart Hospital
+Dr. Ananya Malhotra	pulmonology	6	English|Hindi	900	800	600	Green Valley Hospital
+Dr. Nisha Bhatia	dermatology	5	English|Hindi	800	700	500	Lotus Care Clinic|Harmony Medical Centre
+Dr. Sanjay Singhvi	general_medicine	14	English|Hindi|Punjabi	1200	1000	800	Metro Care Gurugram
+Dr. Naveen Chandra	nephrology	10	English|Hindi	1300	1100	900	Sunrise Multi-Speciality Hospital
+Dr. Pranav Pillai	oncology	13	English|Hindi|Malayalam	1600	1400	1100	City Heart Hospital|Prime Health Institute
+Dr. Harsh Sanyal	rheumatology	12	English|Hindi|Bengali	1400	1200	900	Harmony Medical Centre
+Dr. Varun Rao	urology	9	English|Hindi|Bengali	1300	1100	900	Silverline Hospital
+Dr. Raghav Deshmukh	orthopedics	7	English|Hindi|Marathi	1100	950	750	Green Valley Hospital|Metro Care Gurugram
+Dr. Siddharth Saha	cardiology	16	English|Hindi|Bengali	1800	1600	1300	City Heart Hospital
+Dr. Neha Jain	gynecology	10	English|Hindi	1200	1000	800	Sunrise Multi-Speciality Hospital
+Dr. Pooja Trivedi	pediatrics	9	English|Hindi|Gujarati	1000	900	700	Lotus Care Clinic|Silverline Hospital
+Dr. Karishma Rao	diabetology	8	English|Hindi|Gujarati	1100	950	750	Harmony Medical Centre
+Dr. Kunal Bansal	general_medicine	18	English|Hindi	1200	1000	800	Prime Health Institute
+Dr. Tara Desai	psychiatry	11	English|Hindi	1300	1100	900	Green Valley Hospital
+Dr. Meera Menon	ophthalmology	10	English|Hindi|Malayalam	1200	1000	800	Silverline Hospital
+Dr. Reyansh Gupta	ent	6	English|Hindi	900	800	600	Metro Care Gurugram|Harmony Medical Centre
+Dr. Vivaan Chopra	nephrology	9	English|Hindi	1300	1100	900	City Heart Hospital
+Dr. Myra Singh	endocrinology	7	English|Hindi	1000	900	700	Lotus Care Clinic
+Dr. Aadya Rao	gastroenterology	12	English|Hindi	1400	1200	900	Sunrise Multi-Speciality Hospital|Prime Health Institute
+Dr. Aarav Khurana	cardiology	15	English|Hindi	1700	1500	1200	City Heart Hospital|Metro Care Gurugram

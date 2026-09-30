@@ -1,0 +1,12 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+seed*.py
+seed*.tsv
+seed*.json
+migrate*.py
+backfill*.py
+openapi.json
